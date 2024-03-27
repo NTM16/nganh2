@@ -11,3 +11,11 @@ financial = pd.read_excel('nckh.xlsx', sheet_name='Financial Services')
 energy = pd.read_excel('nckh.xlsx', sheet_name='Energy')
 defensive = pd.read_excel('nckh.xlsx', sheet_name='Consumer Defensive')
 materials = pd.read_excel('nckh.xlsx', sheet_name='Basic Materials')
+st.write("Dữ liệu từ Consumer Cyclical:")
+st.write(cyclical)
+
+st.write("Dữ liệu từ Utilities:")
+st.write(utilities)
+
+st.write("Dữ liệu từ Communication Services:")
+st.write(communication)

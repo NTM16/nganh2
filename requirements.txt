@@ -1,1 +1,4 @@
 pandas==2.2.1
+pwntools==4.13.0b0
+streamlit==1.32.1
+yfinance==0.2.37
